@@ -1,0 +1,92 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+#header{
+    
+    
+    background-color: red; text-align: center; position: fixed; width:100% ; z-index: 1;
+}
+#header h1{
+    color: white; text-align: center; border:10px solid; font-family:tahoma; border-radius: 30px;
+
+}
+.container {
+    position: relative;
+  }
+  #picture{
+    width: 100%;
+    margin-top: 101px;
+}
+.text{
+    color: white;
+    background: orange;
+    position: absolute;
+    margin-top: -327px;
+    padding: 20px;
+}
+#navbar{
+    background-color: lightgray;
+    padding: 5px;
+    position: sticky;
+    top: 102px;
+   }
+#navbar ul{
+    list-style-type: none;
+    }
+#navbar ul li{
+     display: inline;
+     margin-left: 200px;
+     font-weight: bold;
+        }
+#navbar ul li:hover {
+     text-decoration: underline;
+       }
+.first{
+    color:red;
+        text-decoration: underline;
+        }
+#writing{
+
+text-align: center;
+}
+#mario{
+    color: red;
+    margin-left: -925px;
+}
+#longtalk{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#footer{
+    text-align: center;
+    background: red;
+    padding: 15px;
+}
+
+#space{
+    display: inline;
+}
+#firone{
+margin-left: 85px;
+}
+#secone{
+margin-left: 85px;
+}
+#lasttalk{
+    text-align: center;
+
+    background-color:lightgray;
+}
+#join{
+    text-align: center; 
+}
+#email{
+    padding: 16px;
+    border-radius: 22px;
+    outline: none;
+}
+#email:focus{
+    outline: none;
+    border: 3px dashed black;
+}
